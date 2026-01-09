@@ -4,57 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Startpagina</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto+Slab:wght@300;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <style>
-        body {
-            background-color: #ffe5b4;
-            font-family: "Poppins", sans-serif;
-            margin: 20px;
-        }
-
-        h2 {
-            font-family: "Roboto Slab", serif;
-        }
-
-        .highlight {
-            background-color: #e0ffe4;
-            padding: 5px;
-        }
-
-        .accent {
-            color: #d14f4f;
-            font-weight: bold;
-        }
-
-        .link {
-            color: #1e7e34;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .link:hover {
-            text-decoration: underline;
-        }
-
-        .page-container {
-            margin-top: 20px;
-        }
-    </style>
 </head>
 <body>
-    <h1>Welkom op mijn website!</h1>
+    <header>
+        <h1>Welkom op mijn website!</h1>
+    </header>
 
-    <h2>Wat je kunt doen:</h2>
-    <p>Op deze website kun je meer over mij leren en mijn profiel bekijken. Klik op de link hieronder om naar mijn profielpagina te gaan:</p>
-    
-    <div class="page-container">
-        <a class="link" href="profile-page_Jochem.html">Bekijk mijn profiel</a>
-    </div>
+    <main>
+        <h2>Wat je kunt doen:</h2>
+        <p>Op deze website kun je meer over mij leren en mijn profiel bekijken. Klik op de link hieronder:</p>
+        
+        <div class="page-container">
+            <a href="profile-page_Jochem.html">Bekijk mijn profiel</a>
+        </div>
 
-    <div class="page-container">
-        <a class="link" href="profile_etails_Jochem.html">Bekijk details</a>
-    </div>
+        <div class="page-container">
+            <a href="profile_etails_Jochem.html">Bekijk details</a>
+        </div>
+
+        <!-- Voorbeeld id-link -->
+        <div id="info-section" class="page-container">
+            <p>Scroll hierheen via <a href="#info-section">deze link</a></p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 Jochem
+    </footer>
 </body>
 </html>
