@@ -3,128 +3,51 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mijn Profiel</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto+Slab:wght@300;600&display=swap" rel="stylesheet" />
+    <title>Mijn Details</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-    <style>
-        body {
-            background-color: #ffe5b4;
-            font-family: "Poppins", sans-serif;
-            margin: 20px;
-        }
-
-        h2, h3 {
-            font-family: "Roboto Slab", serif;
-        }
-
-        p {
-            font-size: 16px;
-        }
-
-        .highlight {
-            background-color: #e0ffe4;
-            padding: 5px;
-        }
-
-        .accent {
-            color: #d14f4f;
-            font-weight: bold;
-        }
-
-        .italic {
-            font-style: italic;
-        }
-
-        .underline {
-            text-decoration: underline;
-        }
-
-        .link {
-            color: #1e7e34;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .link:hover {
-            text-decoration: underline;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border: 1px solid #ddd;
-        }
-
-        th {
-            background-color: #f4a261;
-            color: white;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-
-        tr:nth-child(odd) {
-            background-color: #f1f1f1;
-        }
-
-        .page-container {
-            margin-top: 20px;
-        }
-
-        .div-style {
-            background-color: #d14f4f;
-            color: white;
-            padding: 15px;
-            margin-top: 20px;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
-    <h1>Mijn Profielpagina</h1>
+    <header>
+        <h1>Mijn Details</h1>
+    </header>
 
-    <h2>Wie ben ik?</h2>
-    <p>Hallo! Mijn naam is <span class="accent">Jochem</span> en dit is mijn profielpagina voor het schoolproject.</p>
+    <main>
+        <h2>Wie ben ik?</h2>
+        <p>Hallo! Mijn naam is <span class="accent">Jochem</span> en dit is mijn detailpagina.</p>
 
-    <h2>Over mij</h2>
-    <p class="highlight">Ik hou van programmeren, muziek maken, freerunnen en creatief bezig zijn.</p>
+        <h2>Over mij</h2>
+        <p class="highlight">Ik hou van programmeren, muziek maken, freerunnen en creatief bezig zijn.</p>
 
-    <h3>Mijn interesses</h3>
-    <ul>
-        <li>Muziek
-            <ul>
-                <li>Muziek luisteren</li>
-                <li>DJ'en</li>
-            </ul>
-        </li>
-        <li>Programmeren
-            <ul>
-                <li>Python</li>
-                <li>HTML & CSS</li>
-                <li>Game Dev</li>
-            </ul>
-        </li>
-    </ul>
+        <h3>Mijn interesses</h3>
+        <ul>
+            <li>Muziek
+                <ul>
+                    <li>Muziek luisteren</li>
+                    <li>DJ'en</li>
+                </ul>
+            </li>
+            <li>Programmeren
+                <ul>
+                    <li>Python</li>
+                    <li>HTML & CSS</li>
+                    <li>Game Dev</li>
+                </ul>
+            </li>
+        </ul>
 
+        <div class="div-style">
+            <p>Persoonlijke info en schoolgegevens.</p>
+            <img src="images/1f44d.png" alt="Like">
+        </div>
 
+        <div class="page-container">
+            <a href="index.html">Terug naar startpagina</a>
+        </div>
+    </main>
 
-    <div class="div-style">
-        <p>Dit is mijn profielpagina met persoonlijke informatie en schoolgegevens. Ik ben enthousiast om te leren en mezelf te verbeteren!</p>
-    <img src="images/1f44d.png">
-
-    </div>
-
-    <div class="page-container">
-        <a class="link" href="index.html">Terug naar startpagina</a>
-    </div>
+    <footer>
+        &copy; 2026 Jochem
+    </footer>
 </body>
 </html>
